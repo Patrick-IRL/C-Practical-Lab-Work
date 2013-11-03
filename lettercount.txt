@@ -1,0 +1,24 @@
+printf("Please enter a sentenc\n");
+
+gets( sentence);// Get sentence from the user
+len = strlen(sentence);// Work out string length
+
+
+i=0;// Declare i as 0
+
+
+while ( i< len)// while i is smaller than 0
+{(diff = sentence[i] -97); // i - 97 to work out values from the keyboartd into simple numbers
+
+alpha [diff] ++;// Here it takes the value figured out by using archemtic table and adds one to the total found in the sentence
+
+i++;// increae adds one to i so it moves it the next charcter
+}
+
+for(i=0; i<26; i++)// Will runt he loops for all the letter in the alphebete
+
+{
+
+printf("%c, %d\n", 97 + i, alpha[i
+it can tell you how many of each type of letter are in a word
+as a is 97 b is 98 ect ...
