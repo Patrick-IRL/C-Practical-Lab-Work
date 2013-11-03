@@ -1,4 +1,0 @@
-	commments.c:	Program to extract the comments from a .c source
-					file and store them in a text file.
-	Authors: Patrick Moorehouse
-	Last Modified: 09/2012
